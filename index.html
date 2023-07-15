@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Victor+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="root-container">
+      <div class="left">
+        <div class="logo">
+          <img src="./chef-pic.svg" alt="logo" />
+          <h3>Siddhu's Food Zone</h3>
+          <span>Foodies! Assemble</span>
+        </div>
+        <div class="links">
+          <h4>Quick Links</h4>
+          <ol>
+            <li>Home</li>
+            <li>Your Orders</li>
+            <li>Wallet</li>
+            <li>Profile</li>
+            <li>Logout</li>
+          </ol>
+        </div>
+        <div class="links">
+          <h4>More About Us</h4>
+          <ol>
+            <li>Our Blog</li>
+            <li>Upcoming Dishes</li>
+            <li>Our Story</li>
+            <li>Social Media Links</li>
+          </ol>
+        </div>
+      </div>
+      <div class="right">
+        <div class="nav-bar" id="nav">
+          <div class="search-item">
+            <span class="material-icons">search</span>
+            <input type="text" placeholder="Search Food Item" />
+          </div>
+          <button>Signup</button>
+          <button>Login</button>
+          <img src="./chef-pic.svg" alt="logo" />
+        </div>
+        <div class="bottom-right">
+          <div class="corousel">
+            <img src="./carousel.png" alt="" style="width: 100%;" />
+          </div>
+          <div class="menu">
+            <h4>Menu</h4>
+            <div class="cards" id="items"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
